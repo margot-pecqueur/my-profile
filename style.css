@@ -1,0 +1,136 @@
+
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+
+/* Color and fonts */
+body {
+  background-color: #f0ece3;
+  color: #c7b198;
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+}
+
+h1,h2 {
+  font-weight: bolder;
+  color: #5e6f64;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+a {
+  color:#596e79;
+  font-weight: 200;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #e0ece4;
+}
+
+
+/* Custom design with class (99% of the design) */
+
+.container {
+  width: 700px;
+  margin:40px auto;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+  padding-top: 10px;
+  transition : 1s;
+  border: solid 0px white;
+}
+
+.card-white:hover {
+  box-shadow: 0px 10px 20px #679b9b;
+  transition: 1s;
+  border: solid 4px white;
+}
+
+.card-justify {
+  text-align: justify;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 180px;
+}
+
+.btn-blue {
+  background-color: #679b9b;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+}
+
+.btn-blue:hover {
+  background-color: #e0ece4;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color:#679b9b;
+}
+
+.list-inline i:hover {
+  color: #e0ece4;
+}
+
+/* Design adjustments using id (1% of the design) */
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
+
+
+
